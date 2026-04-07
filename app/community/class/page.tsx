@@ -6,6 +6,13 @@ import Image from "next/image"
 export default function ClassPage() {
     const classes = [
         {
+            title: "Spring Boot 실전 프로젝트 스터디",
+            description: "Java 기초만 알아도 괜찮습니다. Spring Boot로 REST API를 만들고, DB 연동과 인증 구현을 거쳐 최종적으로 AWS 배포까지 경험하는 실전 프로젝트 스터디입니다. 매주 이론 정리, 라이브 코딩, 코드 리뷰를 통해 협업 감각과 백엔드 역량을 함께 키웁니다. 혼자서는 막혔던 분, 포트폴리오를 완성하고 싶은 분들께 추천드립니다.",
+            category: "도구 활용",
+            image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
+            status: "모집중"
+        },
+        {
             title: "AI로 만드는 첫 웹사이트 (Python 멘토링)",
             description: "코딩을 몰라도 괜찮습니다. 생성형 AI를 활용해 처음부터 웹사이트를 직접 만들어보는 1:1 실전 멘토링입니다. Python 기초부터 게시판 제작, 나만의 포트폴리오 사이트 완성까지 단계별로 진행합니다. AI를 제대로 활용하는 방법과 실전 검색 노하우까지 함께 배우며, 결과물로 남는 프로젝트를 완성해보세요. 프로그래밍을 처음 시작하는 분도 부담 없이 참여할 수 있습니다.",
             category: "도구 활용",
@@ -39,13 +46,6 @@ export default function ClassPage() {
             category: "도구 활용",
             image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80",
             status: "모집 마감"
-        },
-        {
-            title: "Spring Boot 실전 프로젝트 스터디",
-            description: "Java 기초만 알아도 괜찮습니다. Spring Boot로 REST API를 만들고, DB 연동과 인증 구현을 거쳐 최종적으로 AWS 배포까지 경험하는 실전 프로젝트 스터디입니다. 매주 이론 정리, 라이브 코딩, 코드 리뷰를 통해 협업 감각과 백엔드 역량을 함께 키웁니다. 혼자서는 막혔던 분, 포트폴리오를 완성하고 싶은 분들께 추천드립니다.",
-            category: "도구 활용",
-            image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&q=80",
-            status: "모집중"
         },
         {
             title: "캠퍼스·데일리 스냅 무료 촬영",
